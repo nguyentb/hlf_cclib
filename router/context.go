@@ -5,8 +5,8 @@ import (
 
 	"github.com/hyperledger/fabric/core/chaincode/lib/cid"
 	"github.com/hyperledger/fabric/core/chaincode/shim"
-	"github.com/s7techlab/cckit/convert"
-	"github.com/s7techlab/cckit/state"
+	"github.com/nguyentb/hlf_cclib/convert"
+	"github.com/nguyentb/hlf_cclib/state"
 )
 
 type (

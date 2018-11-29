@@ -5,10 +5,10 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	examplecert "github.com/s7techlab/cckit/examples/cert"
-	"github.com/s7techlab/cckit/identity"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	examplecert "github.com/nguyentb/hlf_cclib/examples/cert"
+	"github.com/nguyentb/hlf_cclib/identity"
+	testcc "github.com/nguyentb/hlf_cclib/testing"
+	expectcc "github.com/nguyentb/hlf_cclib/testing/expect"
 )
 
 func TestCars(t *testing.T) {

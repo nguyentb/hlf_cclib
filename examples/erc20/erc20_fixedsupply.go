@@ -2,9 +2,9 @@ package erc20
 
 import (
 	"github.com/pkg/errors"
-	"github.com/s7techlab/cckit/extensions/owner"
-	"github.com/s7techlab/cckit/router"
-	p "github.com/s7techlab/cckit/router/param"
+	"github.com/nguyentb/hlf_cclib/extensions/owner"
+	"github.com/nguyentb/hlf_cclib/router"
+	p "github.com/nguyentb/hlf_cclib/router/param"
 )
 
 const SymbolKey = `symbol`

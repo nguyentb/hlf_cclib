@@ -1,7 +1,7 @@
 package owner
 
 import (
-	"github.com/s7techlab/cckit/router"
+	"github.com/nguyentb/hlf_cclib/router"
 )
 
 const QueryMethod = `owner`

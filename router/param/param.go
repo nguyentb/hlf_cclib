@@ -1,8 +1,8 @@
 package param
 
 import (
-	"github.com/s7techlab/cckit/convert"
-	"github.com/s7techlab/cckit/router"
+	"github.com/nguyentb/hlf_cclib/convert"
+	"github.com/nguyentb/hlf_cclib/router"
 )
 
 // String creates middleware for converting to string chaincode method parameter

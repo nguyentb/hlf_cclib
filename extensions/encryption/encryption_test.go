@@ -9,13 +9,13 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	"github.com/s7techlab/cckit/convert"
-	"github.com/s7techlab/cckit/extensions/debug"
-	"github.com/s7techlab/cckit/extensions/encryption"
-	"github.com/s7techlab/cckit/router"
-	p "github.com/s7techlab/cckit/router/param"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	"github.com/nguyentb/hlf_cclib/convert"
+	"github.com/nguyentb/hlf_cclib/extensions/debug"
+	"github.com/nguyentb/hlf_cclib/extensions/encryption"
+	"github.com/nguyentb/hlf_cclib/router"
+	p "github.com/nguyentb/hlf_cclib/router/param"
+	testcc "github.com/nguyentb/hlf_cclib/testing"
+	expectcc "github.com/nguyentb/hlf_cclib/testing/expect"
 )
 
 func TestEncryption(t *testing.T) {

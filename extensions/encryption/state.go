@@ -4,9 +4,9 @@ import (
 	"encoding/base64"
 
 	"github.com/pkg/errors"
-	"github.com/s7techlab/cckit/convert"
-	"github.com/s7techlab/cckit/router"
-	"github.com/s7techlab/cckit/state"
+	"github.com/nguyentb/hlf_cclib/convert"
+	"github.com/nguyentb/hlf_cclib/router"
+	"github.com/nguyentb/hlf_cclib/state"
 )
 
 var (

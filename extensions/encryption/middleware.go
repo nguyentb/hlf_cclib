@@ -3,8 +3,8 @@ package encryption
 import (
 	"github.com/hyperledger/fabric/protos/peer"
 	"github.com/pkg/errors"
-	"github.com/s7techlab/cckit/response"
-	"github.com/s7techlab/cckit/router"
+	"github.com/nguyentb/hlf_cclib/response"
+	"github.com/nguyentb/hlf_cclib/router"
 )
 
 func ArgsDecryptIfKeyProvided(next router.ContextHandlerFunc, pos ...int) router.ContextHandlerFunc {

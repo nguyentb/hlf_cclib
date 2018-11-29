@@ -3,11 +3,11 @@ package owner
 import (
 	"testing"
 
-	examplecert "github.com/s7techlab/cckit/examples/cert"
-	"github.com/s7techlab/cckit/identity"
-	"github.com/s7techlab/cckit/router"
-	testcc "github.com/s7techlab/cckit/testing"
-	expectcc "github.com/s7techlab/cckit/testing/expect"
+	examplecert "github.com/nguyentb/hlf_cclib/examples/cert"
+	"github.com/nguyentb/hlf_cclib/identity"
+	"github.com/nguyentb/hlf_cclib/router"
+	testcc "github.com/nguyentb/hlf_cclib/testing"
+	expectcc "github.com/nguyentb/hlf_cclib/testing/expect"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
